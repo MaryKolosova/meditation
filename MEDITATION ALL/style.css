@@ -1,0 +1,49 @@
+#header {
+	display: flex;
+	justify-content: center;
+	background-color: azure;
+	margin: 10px;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+}
+
+#btn-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#btn {
+	margin-top: 200px;
+	padding: 25px;
+	border: none;
+	border-radius: 20px;
+	background-color: azure;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+#btn:hover {
+	background: linear-gradient(to right, #ACB6E5, #74ebd5);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+}
+
+#myVideo {
+	position: fixed;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
